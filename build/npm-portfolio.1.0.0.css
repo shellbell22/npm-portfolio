@@ -1,0 +1,167 @@
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+a {
+  /* Typography Declrations */
+  font-weight: bold;
+  text-decoration: none;
+  color: #ED6C39;
+}
+a:hover {
+  color: #FF9966;
+}
+a:visited {
+  color: #ED6C39;
+}
+::selection {
+  /* Appearance Declarations */
+  background: #3FB5AA;
+}
+p {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+figcaption {
+  color: #ED6C39;
+  font-family: "Courier";
+}
+#titleimageid {
+  width: 60%;
+  padding-left: 18%;
+}
+.header-nav-links {
+  list-style-type: none;
+  padding-left: 31%;
+}
+.header-nav-links > li {
+  display: inline;
+  padding-right: 75px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+}
+.projects-section {
+  width: 100%;
+  height: 100%;
+  background-color: #16667D;
+}
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.comics-section {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+#tennispic {
+  width: 30%;
+  height: 328px;
+  margin-top: 3%;
+  margin-left: 12%;
+  margin-bottom: 5%;
+  border-color: #a7a3a1;
+  border-width: 5px;
+  border-style: solid;
+}
+#hackerpic {
+  width: 30%;
+  height: 328px;
+  margin-top: 3%;
+  margin-left: 13%;
+  margin-bottom: 5%;
+  border-color: #a7a3a1;
+  border-width: 5px;
+  border-style: solid;
+}
+#manolopic {
+  width: 30%;
+  height: 328px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  border-color: #16667D;
+  border-width: 5px;
+  border-style: solid;
+}
+#prisonpic {
+  width: 30%;
+  height: 328px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  border-color: #16667D;
+  border-width: 5px;
+  border-style: solid;
+}
+#stegopic {
+  width: 30%;
+  height: 328px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  border-color: #16667D;
+  border-width: 5px;
+  border-style: solid;
+}
+.aboutmepics {
+  width: 23%;
+  height: 250px;
+  margin-top: 3%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  border-color: #a7a3a1;
+  border-width: 5px;
+  border-style: solid;
+}
+h1 {
+  color: #ED6C39;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-align: center;
+  padding-top: 3%;
+}
+.aboutme-section {
+  width: 100%;
+  height: 100%;
+  background-color: #16667D;
+}
+.aboutmepicscontainer {
+  margin-left: 18%;
+}
+.content-footer > p {
+  color: black;
+}
+.content-footer {
+  /* Layout Declarations */
+  padding: 2em 0;
+  /* Appearance Rules */
+  background-color: white;
+}
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .social {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=npm-portfolio.1.0.0.css.map */
